@@ -3,7 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>Steve Jones</title>
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/main.css"><script>
+  if (screen && screen.width < 390) {
+    document.write('<meta name="viewport" content="width=device-width, initial-scale=0.8, user-scalable=no">');
+  } else {
+    document.write('<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">');
+  }
+</script>
+
     <script src="assets/js/modernizr.js"></script>
     <script src="assets/js/polygon.js"></script><!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script>if (typeof jQuery === 'undefined') {
@@ -319,11 +326,7 @@
         <div id="work_"></div>
         <h1>My Work</h1>
         <div class="work-container">
-          <div class="work-box-container">
-              <a href="#" target="_blank" class="work-box"><img src="assets/img/oba-start.gif"></a>
-              <a href="http://ozeedesigns.com" target="_blank" class="work-box"><img src="assets/img/ozee-start.gif"></a>
-              <a href="work/our-school" target="_blank" class="work-box"><img src="assets/img/our-school-start.gif"></a>
-              <a href="work/teaching-resources" target="_blank" class="work-box"><img src="assets/img/mr-jones-start.gif"></a>
+          <div class="work-box-container"><a href="http://bushfield.it/co-uk/index.php" target="_blank" class="work-box"><img src="assets/img/oba-start.gif"></a><a href="http://ozeedesigns.com" target="_blank" class="work-box"><img src="assets/img/ozee-start.gif"></a><a href="work/our-school" target="_blank" class="work-box"><img src="assets/img/our-school-start.gif"></a><a href="work/teaching-resources" target="_blank" class="work-box"><img src="assets/img/mr-jones-start.gif"></a>
             <div class="work-logo">
               <div class="svg-container"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 -5 150 155" enable-background="new 0 0 150 150" xml:space="preserve">
 <g>
@@ -365,7 +368,13 @@
         <div id="contact_"></div>
         <h1>Contact</h1>
       </section>
-      <footer></footer>
+      <footer>
+        <div><a href="https://uk.linkedin.com/pub/steve-jones/a3/9a0/196" target="_blank">
+    <img src="assets/img/linkedin.png" alt="View Steve Jones's profile on LinkedIn">
+</a>
+
+        </div>
+      </footer>
     </div>
   </body>
 </html>
